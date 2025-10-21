@@ -1,7 +1,7 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
         body { 
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-            background: linear-gradient(135deg, #e6c294 0%, #C9985E 100%); 
+            background: linear-gradient(135deg, #e6c294 0%, #EB7839 100%); 
             display: flex; 
             justify-content: center; 
             align-items: center; 
@@ -14,7 +14,7 @@
             padding: 24px;
             max-width: 800px;
             width: 100%;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 10px 30px #EB7839;
             display: grid;
             grid-template-columns: 1fr;
             gap: 20px;
@@ -22,7 +22,7 @@
         }
         .profile-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 15px 35px #EB7839;
         }
 
         /* Avatar */
@@ -36,11 +36,11 @@
             border-radius: 50%;
             object-fit: cover;
             object-position: top;
-            border: 4px solid #e0e0e0;
+            border: 4px solid #938F85;
             transition: border-color 0.3s ease;
         }
         .avatar-img:hover {
-            border-color: #007bff;
+            border-color: #EB7839;
         }
 
         /* Content sections */
@@ -72,15 +72,15 @@
         }
         .social-nav a {
             text-decoration: none;
-            color: #35527E;
+            color: #EB7839;
             padding: 8px 16px;
-            border: 1px solid #35527E;
+            border: 1px solid #EB7839;
             border-radius: 50px;
             transition: background-color 0.3s ease, color 0.3s ease;
             font-size: 0.9rem;
         }
         .social-nav a:hover, .social-nav a:focus {
-            background-color: #35527E;
+            background-color: #EB7839;
             color: white;
             outline: none;
         }
